@@ -126,12 +126,10 @@ ul.cart-list > li.total > .btn{
     nav.navbar .navbar-brand img.logo{
         position:relative;
 		max-width: 80%;
-		top:2px;
     }
 	nav.navbar.sticked .navbar-brand img.logo{
         position:relative;
-		top:7px;
-		max-width:60%;
+		max-width:80%;
     }
     
     nav.navbar li.dropdown ul.dropdown-menu{
