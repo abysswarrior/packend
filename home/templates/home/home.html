@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+		<!-- Main jumbotron for a primary marketing message or call to action -->
+		<section class="main-banner" style="background:#242c36 url({% static 'img/slider-01.jpg'%}) no-repeat">
+			<div class="container">
+				<div class="caption">
+					<h2>Find Your Dream Job</h2>
+					<form>
+						<fieldset>
+							<div class="col-md-7 col-sm-7 no-pad">
+								<input type="text" class="form-control border-right" placeholder="Skills, Designation, Companies" />
+							</div>
+							<div class="col-md-3 col-sm-3 no-pad">
+								<select class="selectpicker">
+								  <option>Select City</option>
+								  <option>Amsterdam</option>
+								  <option>Rotterdam</option>
+								  <option>The Hague</option>
+								  <option>Utrecht</option>
+								  <option>Eindhoven</option>
+								  <option>Almere</option>
+								  <option>Other</option>
+								</select>
+							</div>
+							<div class="col-md-2 col-sm-2 no-pad">
+								<input type="submit" class="btn seub-btn" value="submit" />
+							</div>
+						</fieldset>
+					</form>
+				</div>
+			</div>
+		</section>
+
+		<section class="newsletter">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-10 col-sm-10 col-md-offset-1 col-sm-offset-1">
+					<h2>Want More Job & Latest Job? </h2>
+					<p>Subscribe to our mailing list to receive an update when new Job arrive!</p>
+					<div class="input-group">
+						<input type="text" class="form-control" placeholder="Type Your Email Address...">
+						<span class="input-group-btn">
+							<button type="button" class="btn btn-default">subscribe!</button>
+						</span>
+					</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+{% endblock %}

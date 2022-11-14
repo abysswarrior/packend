@@ -4,16 +4,16 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Packend | Python Backend Jobs Around the World </title>
+        <title>Packend | Python Backend Jobs in The Netherlands </title>
         <meta name="description" content="Website that gather latest python backend jobs around the world">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- All Plugin Css -->
-		<link rel="stylesheet" href="{% static 'home/css/plugins.css' %}" type="text/css">
+		<link rel="stylesheet" href="{% static 'css/plugins.css' %}" type="text/css">
 
 		<!-- Style & Common Css -->
-		<link rel="stylesheet" href="{% static 'home/css/common.css' %}" type="text/css">
-        <link rel="stylesheet" href="{% static 'home/css/main.css' %}" type="text/css">
+		<link rel="stylesheet" href="{% static 'css/common.css' %}" type="text/css">
+        <link rel="stylesheet" href="{% static 'css/main.css' %}" type="text/css">
 
     </head>
 
@@ -28,16 +28,24 @@
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
 						<i class="fa fa-bars"></i>
 					</button>
-					<a class="navbar-brand" href="{% url "home:relocateme" %}"><img src="{% static 'home/img/logo.png' %}" class="logo" alt=""></a>
+					<a class="navbar-brand" href="{% url "home:home" %}"><img src="{% static 'img/logo.png' %}" class="logo" alt=""></a>
 				</div>
 				<!-- End Header Navigation -->
 
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="navbar-menu">
 					<ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-							<li><a href="{% url 'home:relocateme' %}">Relocate.me</a></li>
+							<li><a href="{% url 'relocateme:jobs' %}">Relocate.me</a></li>
 							<li><a href="#">Glassdoor</a></li>
 							<li><a href="#">indeed</a></li>
+                             <li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Other</a>
+								<ul class="dropdown-menu animated fadeOutUp" style="display: none; opacity: 1;">
+									<li class="active"><a href="#">About Me</a></li>
+									<li><a href="#">About Netherlands</a></li>
+									<li><a href="#">Useful Tips & Tricks</a></li>
+								</ul>
+							</li>
 						</ul>
 				</div><!-- /.navbar-collapse -->
 			</div>
@@ -55,10 +63,10 @@
 			</div>
 
 
-		<script type="text/javascript" src="{% static 'home/js/jquery.min.js' %}"></script>
-		<script src="{% static 'home/js/bootstrap.min.js' %}"></script>
-		<script type="text/javascript" src="{% static 'home/js/owl.carousel.min.js' %}"></script>
-		<script src="{% static 'home/js/bootsnav.js' %}"></script>
-		<script src="{% static 'home/js/main.js' %}"></script>
+		<script type="text/javascript" src="{% static 'js/jquery.min.js' %}"></script>
+		<script src="{% static 'js/bootstrap.min.js' %}"></script>
+		<script type="text/javascript" src="{% static 'js/owl.carousel.min.js' %}"></script>
+		<script src="{% static 'js/bootsnav.js' %}"></script>
+		<script src="{% static 'js/main.js' %}"></script>
     </body>
 </html>
