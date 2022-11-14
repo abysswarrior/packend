@@ -10,7 +10,7 @@
 </p>
 
 # About Packend
-**Packend** is a free and open-source Website that gather latest python backend jobs around the world, created by the _Django_.
+**Packend** is a free and open-source Website that gather latest python backend jobs in the Netherlands, made by the _Django_ framework.
 
 # Live Demo
 
