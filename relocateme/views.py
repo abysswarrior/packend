@@ -1,6 +1,6 @@
 from django.shortcuts import render, HttpResponse
 from django.views import View
-from common.crawler import crawl
+from .crawler import relocatme_crawler
 import requests
 
 
@@ -19,7 +19,7 @@ class RelocateMeView(View):
             if page.status_code != 200:
                 break
             try:
-                job_count, all_jobs = crawl(page)
+                job_count, all_jobs = relocatme_crawler(page)
                 total_job_count += job_count
                 all_page_data += all_jobs
                 if job_count == 0:

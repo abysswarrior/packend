@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 
 
-def crawl(page):
+def relocatme_crawler(page):
     soup = BeautifulSoup(page.content, 'html.parser')
     jobs = soup.find_all('div', class_='jobs-list__job')
     job_count = 0
