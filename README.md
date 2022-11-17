@@ -16,6 +16,17 @@
 
 You can see the deployed version of project [here](http://packend.promethe.dev/) or [here](http://packend-promethe.fandogh.cloud/)
 
+# Features
+
+- [x] Based on **Django 4**
+- [x] gather jobs with relocation package from relocate.me
+- [ ] A brief History of the Netherlands
+- [ ] Useful tips & and tricks for expat
+- [ ] Introducing the most important website to find jobs in Netherlands
+- [ ] information about the best neighborhood in the Netherlands for expat
+- [ ] Introducing the best website fo find home
+- [ ] List of company with foreigner work permission
+
 # Requirements
 
 ```markdown
