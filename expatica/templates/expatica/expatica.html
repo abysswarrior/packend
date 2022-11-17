@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+        <!-- Main jumbotron for a primary marketing message or call to action -->
+	<section class="inner-banner" style="background:#242c36 url(https://www.expatica.com/app/uploads/sites/3/2018/11/shutterstock_105950324-e1529657028347-1200x675.jpg) no-repeat">
+		<div class="container">
+			<div class="caption">
+				<h2>Expatica</h2>
+				<p>Jobs for Skilled Django Developer Expat!</p>
+                <strong>Total {{ total_job_count }} jobs</strong>
+			</div>
+		</div>
+	</section>
+
+    <section class="jobs">
+			<div class="container">
+				<div class="companies">
+                    {% for job in jobs_list %}
+                    <div class="company-list">
+						<div class="row">
+							<div class="col-md-2 col-sm-2">
+								<div class="company-logo">
+									<img src="{{ job.logo }}" class="img-responsive" alt="" />
+								</div>
+							</div>
+							<div class="col-md-10 col-sm-10">
+								<div class="company-content">
+									<a href="{{ job.link }}"><h3>{{ job.title }}</h3></a>
+									<p>
+                                        <span class="company-location"><i class="fa fa-map-marker"></i> {{ job.location }} </span>
+                                        <span class="package"><i class="fa fa-tags"></i> {{ job.tags}} </span>
+                                    </p>
+									<p> {{ job.preview }}
+                                    </p>
+								</div>
+							</div>
+						</div>
+					</div>
+                    {% endfor %}
+
+				</div>
+			</div>
+		</section>
+
+{% endblock %}
