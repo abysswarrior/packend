@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'home.apps.HomeConfig',
     'relocateme.apps.RelocatemeConfig',
+    'expatica.apps.ExpaticaConfig',
 ]
 
 MIDDLEWARE = [
