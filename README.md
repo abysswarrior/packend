@@ -82,8 +82,8 @@ $ fandogh service deploy --version v0.1 --name packend -p 8000 --hosts packend.p
 
 # Why ?
 
-I created this website, to gather everything that needs to know about The Netherlands
-if you are a backend developer (*especially in python stack*) and you decided to immigrate to the Netherlands.
+I created this website, to gather everything that needs to know about The Netherlands.
+if you are a backend developer (*especially in python stack*) and you decided to immigrate to the Netherlands I hope that would help.
 
 # Contribution
 
