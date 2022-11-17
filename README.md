@@ -19,14 +19,19 @@ You can see the deployed version of project [here](http://packend.promethe.dev/)
 # Features
 
 - [x] Based on **Django 4**
-- [x] gather jobs with relocation package from relocate.me
-- [ ] A brief History of the Netherlands
-- [ ] Useful tips & and tricks for expat
-- [ ] Introducing the most important website to find jobs in Netherlands
-- [ ] information about the best neighborhood in the Netherlands for expat
-- [ ] Introducing the best website fo find home
-- [ ] List of company with foreigner work permission
-
+- [x] gather jobs with relocation package from **relocate.me**
+- [x] gather job positions from **expatica.com**
+- [ ] gather job positions from **tepstone.nl**
+- [ ] **Search** mechanism for all resource
+- [ ] Automatically send new job position to **email**
+- [ ] A brief **History of the Netherlands**
+- [ ] Useful **tips** & and **tricks** for expat
+- [ ] Tips & Tricks about **health insurance**
+- [ ] Introducing the most important website to find **jobs** in Netherlands
+- [ ] information about the **best neighborhood** in the Netherlands for expat
+- [ ] Introducing the best website fo **find home**
+- [ ] List of **companies** that has permitted to offer **relocation package**
+    
 # Requirements
 
 ```markdown
@@ -75,6 +80,15 @@ $ fandogh service deploy --version v0.1 --name packend -p 8000 --hosts packend.p
 
 > To use `--host` option you should first verify your domain in fangogh  
 
+# Why ?
+
+I created this website, to gather everything that needs to know about The Netherlands
+if you are a backend developer (*especially in python stack*) and you decided to immigrate to the Netherlands.
+
+# Contribution
+
+Contributions are very welcome. I appreciate any PR or feedbacks to improve Packend.
+
 # License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+Made by ❤️ under [MIT](https://choosealicense.com/licenses/mit/) license.
