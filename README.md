@@ -55,6 +55,20 @@ $ sudo apt-get install libpq-dev
 $ python manage.py runserver
 ```
 
+# Screenshots
+
+### Home Page
+
+![home](screenshot/home.png)
+
+### Relocate.me
+
+![relocateme](screenshot/relocateme.png)
+
+### Expatica
+
+![expatica](screenshot/expatica.png)
+
 # Why ?
 
 I created this website, to gather everything that needs to know about The Netherlands.
