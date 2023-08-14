@@ -12,10 +12,6 @@
 # About Packend
 **Packend** is a free and open-source Website that gather latest python backend jobs in the Netherlands, made by the _Django_ framework.
 
-# Live Demo
-
-You can see the deployed version of project [here](http://packend.promethe.dev/) or [here](http://packend-promethe.fandogh.cloud/)
-
 # Features
 
 - [x] Based on **Django 4**
@@ -58,30 +54,6 @@ $ sudo apt-get install libpq-dev
 ```shell
 $ python manage.py runserver
 ```
-
-# Deploy on Fandogh
-
-[fandogh.cloud](https://www.fandogh.cloud/) is a fantastic PaaS that allows you to 
-deploy project easily. You just need to make your project dockerized.
-
-To deploy project follow these commands :
-
-**Step 1 :** initiate the image
-```shell
-$ fandogh image init --name=packend
-```
-
-**Step 2 :** publish the image to fandogh registry
-```shell
-$ fandogh image publish --version v0.1 
-```
-
-**Step 3 :** deploy the image. Done!
-```shell
-$ fandogh service deploy --version v0.1 --name packend -p 8000 --hosts packend.promethe.dev
-```
-
-> To use `--host` option you should first verify your domain in fangogh  
 
 # Why ?
 
