@@ -31,6 +31,9 @@ You can see the deployed version of project [here](http://packend.promethe.dev/)
 - [ ] information about the **best neighborhood** in the Netherlands for expat
 - [ ] Introducing the best website fo **find home**
 - [ ] List of **companies** that has permitted to offer **relocation package**
+- [ ] **Dockerize** project
+- [ ] Store crawled data in **database**
+- [ ] Automate jobs crawling by **celery beat**
     
 # Requirements
 
